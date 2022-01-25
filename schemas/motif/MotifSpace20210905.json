@@ -1,0 +1,74 @@
+{
+    "description": "This schema describes version 20210905 of the Motif Space Metadata Standard",
+    "title": "MotifSpace20210905",
+    "$id": "https://motif.foundation/schemas/MotifSpaceMetadata.json",
+    "type": "object",
+    "properties": {
+        "assetType": {
+            "description": "Motif Asset Type",
+            "examples": [
+                "item"
+            ],
+            "type": "string"
+        },
+        "spaceType": {
+            "description": "Type of the NFT Space",
+            "examples": [
+                "Art Gallery"
+            ],
+            "type": "string"
+        },
+        "blockchain": {
+            "description": "Blockchain of the NFT space under the space type",
+            "examples": [
+                "Motif"
+            ],
+            "type": "string"
+        },
+        "name": {
+            "description": "Name of the NFT Space",
+            "examples": [
+                "My Art Gallery"
+            ],
+            "type": "string"
+        },
+        "description": {
+            "description": "Description of the NFT Space",
+            "examples": [
+                "My art gallery has all the works I have created."
+            ],
+            "type": "string"
+        }, 
+        "mimeType": {
+            "description": "MimeType of NFT Space Poster",
+            "examples": [
+                "image/png"
+            ],
+            "type": "string"
+        },  
+        "code": {
+            "description": "Code of the space",
+            "examples": [
+                "<html/>"
+            ],
+            "type": "string"
+        },    
+        "version": {
+            "description": "Version of the schema ",
+            "examples": [
+                "motif-MotifSpace20210905"
+            ],
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "spaceType",
+        "blockchain",
+        "name",
+        "description",
+        "mimeType",
+        "code",
+        "version"
+    ]
+}
