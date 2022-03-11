@@ -47,9 +47,16 @@
             "type": "string"
         },  
         "code": {
-            "description": "Code of the space",
+            "description": "Aframe html code of the space",
             "examples": [
-                "<html/>"
+                "<a-scene><a-sphere position='0 1.25 -5' radius='1.25' color='#EF2D5E'></a-sphere></a-scene>"
+            ],
+            "type": "string"
+        }, 
+        "access": {
+            "description": "For private spaces, access control rights by address in json",
+            "examples": [
+                ""
             ],
             "type": "string"
         },    
@@ -68,7 +75,7 @@
         "name",
         "description",
         "mimeType",
-        "code",
+        "code", 
         "version"
     ]
 }

@@ -34,5 +34,7 @@ export interface MotifSpace20210905 {
   /**
    * Blockchain of the NFT item under the item type
    */
+
+  access: string;
   version: string;
 }
