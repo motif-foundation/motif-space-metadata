@@ -52,6 +52,13 @@
                 "<a-scene><a-sphere position='0 1.25 -5' radius='1.25' color='#EF2D5E'></a-sphere></a-scene>"
             ],
             "type": "string"
+        },
+        "data": {
+            "description": "Object to element data of the space",
+            "examples": [
+                "{link: 'https://example.com', name: 'frame_1'}"
+            ],
+            "type": "string"
         }, 
         "access": {
             "description": "For private spaces, access control rights by address in json",
@@ -76,6 +83,7 @@
         "description",
         "mimeType",
         "code", 
+        "data",
         "version"
     ]
 }

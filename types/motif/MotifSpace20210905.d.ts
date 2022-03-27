@@ -31,6 +31,7 @@ export interface MotifSpace20210905 {
   mimeType: string;
 
   code: string;
+  data: string;
   /**
    * Blockchain of the NFT item under the item type
    */
