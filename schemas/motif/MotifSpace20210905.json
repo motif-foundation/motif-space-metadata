@@ -46,13 +46,6 @@
             ],
             "type": "string"
         },  
-        "code": {
-            "description": "Aframe html code of the space",
-            "examples": [
-                "<a-scene><a-sphere position='0 1.25 -5' radius='1.25' color='#EF2D5E'></a-sphere></a-scene>"
-            ],
-            "type": "string"
-        },
         "data": {
             "description": "Object to element data of the space",
             "examples": [
@@ -82,8 +75,7 @@
         "name",
         "description",
         "mimeType",
-        "code", 
-        "data",
+        "data", 
         "version"
     ]
 }
